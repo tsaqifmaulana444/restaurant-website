@@ -1,0 +1,521 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+nav{
+    position: static;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: fit-content;
+    padding: 4px 90px;
+    box-sizing: border-box;
+    background: #1E000E;    
+    border-bottom: none;
+}
+
+nav .logo .imagelogo a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+nav .logo #logo1{
+    position: relative;
+    top: 3px;
+    left: 43px;
+    font-family: 'Lobster', cursive;
+    font-size: 31px;
+    padding: 2px;
+    width: fit-content;
+    color: #fff;
+   
+}
+
+nav .logo #logo2{
+    position: relative;
+    top: -6px;
+    left: 43px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 13px;
+    padding: 2px;
+    width: fit-content;
+    color: #fff;
+}
+
+nav .logo #containerlogo1{
+    width: fit-content;
+}
+
+nav .logo a #containerlogo2{
+    width: fit-content;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    bottom: 44px;
+    left: 30px;
+}
+nav ul li a{
+    color: #fff;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-style: bold;
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+   
+}
+
+nav ul li a:hover{
+    color: #fff;
+    background-color: #552129;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+nav ul li #signin{
+    color: #fff;
+    background-color: #8a3840;
+    border-radius: 12px;
+}
+
+nav ul li #signin:hover{
+    color: #fff;
+    background-color: #ca6c75;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.main1{
+    width: auto;
+    height: 750px;
+    background-color: #000;    
+    position: relative;
+    top: 0px;
+}
+
+.main1 #rgadang{
+    width: 1380px;
+    height: 750px;
+    position: absolute;
+    top: 0px;
+}
+
+.main1 .bigtext1{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-size: 43px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #fff;
+}
+
+
+
+
+.main1 .bigtext1 #text2{
+    font-size: 100px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #fff;
+    font-style: bold;
+    letter-spacing: 0px;
+    letter-spacing: -3px;
+
+}
+
+.main1 .searchboxmain{
+    position: absolute;
+    top: 450px;
+    left: 405px;
+    display: inline-block;
+}
+
+.main1 .searchboxmain #searchbox1{
+    border-style: none;
+    width: 450px;
+    height: 70px;
+    border-radius: 12px 0px 0px 12px;
+    font-size: 28px;
+    border: none;
+    padding: 0px 25px;
+    position: relative;
+    font-family: 'Signika', sans-serif;
+}
+
+.main1 .searchboxmain #buttonsearchbox1{
+    background-color: #8a3840;
+    border-style: none;
+    position: absolute;
+    height: 70px;
+    width: 100px;
+    border-radius: 0px 12px 12px 0px;
+    font-size: 23px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Signika', sans-serif;
+}
+
+.section2{
+    width: auto;
+    height: 770px;
+    background-color: #8a3840;    
+    position: relative;
+    top: 0px;
+}
+.section2 .news1{
+    background-color: #F4F7BE;
+    width: 1150px;
+    height: 170px;
+    border-radius: 12px 12px 12px 12px;
+    cursor: pointer;
+}
+
+.section2 .news1 .text #text1{
+    font-family: 'Signika Negative', sans-serif; 
+    color: #1E000E;
+    font-size: 37px;
+    font-style: bold;
+    padding: 10px 10px 10px 0px;
+    position: relative;
+    top: 5px;
+    left: 25px;
+    letter-spacing: -1px;
+}
+.section2 .news1 .text #text2{
+    font-family: 'Signika', sans-serif;   
+    font-size: 15px;
+    padding: 0px;
+    width: 860px;
+    height: fit-content;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+.section2 .news1 img{
+    width: 200px;
+    height: 170px;
+    float: left;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.section2 .news2{
+    background-color: #F4F7BE;
+    width: 1150px;
+    height: 170px;
+    margin-top: 20px;
+    border-radius: 12px 12px 12px 12px;
+    cursor: pointer;
+}
+
+.section2 .news2 .text #text1{
+    font-family: 'Signika Negative', sans-serif; 
+    color: #1E000E; 
+    font-size: 37px;
+    font-style: bold;
+    padding: 10px 10px 10px 0px;
+    position: relative;
+    top: 5px;
+    left: 25px;
+    letter-spacing: -1px;
+}
+
+.section2 .news2 .text #text2{
+    font-family: 'Signika', sans-serif;   
+    font-size: 15px;
+    padding: 0px;
+    width: 860px;
+    height: fit-content;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+.section2 .news2 img{
+    width: 200px;
+    height: 170px;
+    float: left;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.section2 .news3{
+    background-color: #F4F7BE;
+    width: 1150px;
+    height: 170px;
+    border-radius: 12px 12px 12px 12px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.section2 .news3 .text #text1{
+    font-family: 'Signika Negative', sans-serif;
+    color: #1E000E;
+    font-size: 37px;
+    font-style: bold;
+    padding: 10px 10px 10px 0px;
+    position: relative;
+    top: 5px;
+    left: 25px;
+    letter-spacing: -1px;
+
+}
+.section2 .news3 .text #text2{
+    font-family: 'Signika', sans-serif;   
+    font-size: 15px;
+    padding: 0px;
+    width: 860px;
+    height: fit-content;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+.section2 .news3 img{
+    width: 200px;
+    height: 170px;
+    float: left;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.section2 .container{
+    position: relative;
+    top: 65px;
+    left: 95px;
+}
+
+.section2 .container #morenews button{
+    padding: 15px;
+    width: 200px;
+    font-size: 30px;
+    font-style: bold;
+    border-radius: 12px;
+    border: none;
+    margin-top: 20px;
+    position: relative;
+    left: 950px;
+    font-family: 'Signika Negative', sans-serif;
+    cursor: pointer;
+    background-color: #F4F7BE;
+}
+
+.section2 .container #morenews button:hover{
+    cursor: pointer;
+    background-color: #b3b85a;
+}
+
+.section3{
+    width: auto;
+    height: 1480px;
+    background-color: #cab078;    
+    position: relative;
+    top: 0px;
+}
+
+.section3 .containermain .about1{
+    position: relative;
+    top: 30px;
+    left: 70px;
+    display: flex;
+}
+
+.section3 .containermain .about1 .imgcontainer1 img{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    top: 40px;
+    left: 270px;
+    transform: rotate(10deg);
+    border: solid #fff 10px;
+}
+
+.section3 .containermain .about1 .textcontainer1 h1{
+    color: #1E000E;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+.section3 .containermain .about1 .textcontainer1 p{
+    color: #8a3840;
+    font-family: 'Merriweather', serif;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section3 .containermain .about2{
+    position: relative;
+    top: 120px;
+    left: 330px;
+    display: flex;
+}
+
+.section3 .containermain .about2 .textcontainer2 h1{
+    color: #1E000E;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    position: relative;
+    left: 350px;
+}
+
+.section3 .containermain .about2 .textcontainer2 p{
+    color: #8a3840;
+    font-family: 'Merriweather', serif;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: right;
+    margin-left: 130px;
+}
+
+.section3 .containermain .about2 .imgcontainer2 img{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    top: 30px;
+    left: -270px;
+    transform: rotate(-10deg);
+    border: solid #fff 10px;
+}
+
+.section3 .containermain .about3{
+    position: relative;
+    top: 200px;
+    left: 70px;
+    display: flex;
+}
+
+.section3 .containermain .about3 .textcontainer3 h1{
+    color: #1e000e;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+.section3 .containermain .about3 .textcontainer3 p{
+    color: #8a3840;
+    font-family: 'Merriweather', serif;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section3 .containermain .about3 .imgcontainer3 img{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    top: 40px;
+    left: 400px;
+    transform: rotate(10deg);
+    border: solid #fff 10px;
+}
+
+.section3 .containermain .about4{
+    position: relative;
+    top: 280px;
+    left: 950px;
+}
+
+.section3 .containermain .about4 .textcontainer4 h1{
+    color: #1E000E;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+.section3 .containermain .about4 #playstore a i{
+    color: #1e000e;
+    font-size: 70px;
+    text-decoration: none;
+    position: relative;
+    left: 25px;
+}
+
+.section3 .containermain .about4 #appstore a i{
+    color: #1e000e;
+    font-size: 70px;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+}
+
+.section3 .containermain .about4 .container{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.section3 .containermain{
+    position: relative;
+    top: 18px;
+}
+
+.footer1{
+    width: auto;
+    height: 570px;
+    background-color: #e0f089;    
+    position: relative;
+    top: 0px;
+}
+
+.footer1 .container1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Signika', sans-serif;
+    color: #1E000E;
+    line-height: 35px;
+    position: relative;
+    top: 30px;
+}
+
+.footer1 .container1 #maintext{
+    color: #8a3840;
+    font-size: 57px;
+    font-family: 'Signika Negative', sans-serif;
+    position: relative;
+    top: 10px;
+
+}
+
+.footer1 .container2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #1E000E;
+    letter-spacing: -1px;
+    line-height: 45px;
+    position: relative;
+    top: 65px;
+}
+
+.footer1 .container3 p{
+    position: relative;
+    text-align: center;
+    top: 170px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #1E000E;
+}
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Signika', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Source Serif Pro', serif; */
